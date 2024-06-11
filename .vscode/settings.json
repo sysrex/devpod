@@ -1,0 +1,88 @@
+{
+  "editor.fontFamily": "Jetbrains Mono",
+  "editor.fontSize": 14,
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.fontWeight": null,
+  "python.languageServer": "Default",
+  "workbench.editorAssociations": {
+      "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "files.autoSave": "onWindowChange",
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "redhat.telemetry.enabled": false,
+  "git.autofetch": true,
+  "workbench.startupEditor": "none",
+  "go.toolsManagement.autoUpdate": true,
+  "git.confirmSync": false,
+  "editor.semanticTokenColorCustomizations": {
+  
+  },
+  "remote.SSH.defaultExtensions": [
+      "gitpod.gitpod-remote-ssh"
+  ],
+  "terminal.integrated.automationProfile.windows": {
+  
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontLigatures": false,
+  "yaml.customTags": [
+      "!And",
+      "!And sequence",
+      "!If",
+      "!If sequence",
+      "!Not",
+      "!Not sequence",
+      "!Equals",
+      "!Equals sequence",
+      "!Or",
+      "!Or sequence",
+      "!FindInMap",
+      "!FindInMap sequence",
+      "!Base64",
+      "!Join",
+      "!Join sequence",
+      "!Cidr",
+      "!Ref",
+      "!Sub",
+      "!Sub sequence",
+      "!GetAtt",
+      "!GetAZs",
+      "!ImportValue",
+      "!ImportValue sequence",
+      "!Select",
+      "!Select sequence",
+      "!Split",
+      "!Split sequence"
+  ],
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "vs-kubernetes": {
+      "vs-kubernetes.minikube-show-information-expiration": "2023-05-14T12:11:48.531Z"
+  },
+  "editor.fontVariations": false,
+  "github.copilot.enable": {
+      "*": true,
+      "plaintext": false,
+      "markdown": false,
+      "scminput": false
+  },
+  "window.zoomLevel": 1,
+  "terminal.integrated.automationProfile.linux": {
+  
+  },
+  "explorer.confirmDelete": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "editor.minimap.enabled": false,
+  "go.lintOnSave": "file",
+  "go.lintTool": "golangci-lint",
+  "debug.javascript.terminalOptions": {
+  
+  },
+  "editor.codeActionsOnSave": {
+      
+  }
+}

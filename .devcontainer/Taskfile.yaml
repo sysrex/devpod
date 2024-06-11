@@ -1,0 +1,25 @@
+version: '3'
+
+tasks:
+  install:
+    cmds:
+      - go install github.com/golangci/golangci-lint/cmd/golangci-lint@latest
+  build:
+    cmds:
+      - go build -o myapp
+    desc: "Build the Go project"
+  
+  test:
+    cmds:
+      - go test ./...
+    desc: "Run tests"
+
+  lint:
+    cmds:
+      - golangci-lint run
+    desc: "Lint the code"
+
+  clean:
+    cmds:
+      - rm -rf myapp
+    desc: "Clean the build artifacts"
